@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Loginpractica1</string>
+    <string name="politica_privacidad">
+    Política de Privacidad
+
+Última actualización: [Fecha de la última actualización]
+
+La presente Política de Privacidad describe las políticas y procedimientos de recopilación, uso y divulgación de información cuando utiliza la aplicación [Nombre de la aplicación] (en adelante, "nosotros" o "nuestro/s").
+
+Al utilizar nuestra aplicación, usted acepta la recopilación y el uso de información de acuerdo con esta política. La información personal que recopilamos se utiliza para proporcionar y mejorar el servicio. No utilizaremos ni compartiremos su información con nadie excepto como se describe en esta Política de Privacidad.
+
+Recopilación y uso de información
+
+Para una mejor experiencia, es posible que le solicitemos que nos proporcione cierta información de identificación personal, que puede incluir, entre otros, su nombre, dirección, número de teléfono y dirección de correo electrónico. La información que recopilamos se utilizará para contactarlo o identificarlo.
+
+Datos de registro
+
+Queremos informarle que cada vez que utiliza nuestra aplicación, en caso de error, recopilamos datos e información (a través de productos de terceros) en su teléfono llamados Datos de Registro. Estos Datos de Registro pueden incluir información como la dirección IP de su dispositivo, el nombre del dispositivo, la versión del sistema operativo, la configuración de la aplicación al utilizar nuestro servicio, la hora y la fecha de su uso del servicio y otras estadísticas.
+
+Cookies
+
+Las cookies son archivos con una pequeña cantidad de datos que se utilizan comúnmente como identificadores únicos anónimos. Estos se envían a su navegador desde los sitios web que visita y se almacenan en la memoria interna de su dispositivo. Nuestra aplicación no utiliza estas "cookies" explícitamente. Sin embargo, la aplicación puede usar código de terceros y bibliotecas que utilizan "cookies" para recopilar información y mejorar sus servicios.
+
+Seguridad
+
+Valoramos su confianza al proporcionarnos su información personal. Pero recuerde que ningún método de transmisión por Internet o método de almacenamiento electrónico es 100% seguro y confiable, y no podemos garantizar su absoluta seguridad.
+
+Cambios en esta Política de Privacidad
+
+Podemos actualizar nuestra Política de Privacidad de vez en cuando. Por lo tanto, se recomienda revisar esta página periódicamente para cualquier cambio. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página.
+
+Si tiene alguna pregunta o sugerencia sobre nuestra Política de Privacidad, no dude en contactarnos en [correo electrónico].
+
+
+    </string>
+</resources>

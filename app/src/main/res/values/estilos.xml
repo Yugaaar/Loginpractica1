@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="colorletras" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">#FFFFFF</item> <!-- Color de texto blanco -->
+    </style>
+    <style name="colorbotones">
+        <item name="android:backgroundTint">#F99417</item>
+    </style>
+    <style name="estiloiniciosesion">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

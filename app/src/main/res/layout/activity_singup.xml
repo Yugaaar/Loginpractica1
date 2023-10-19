@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="63dp">
+
+    <EditText
+        android:id="@+id/correo"
+        style="@style/colorletras"
+        android:layout_width="317dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:text="Myuax@myuax.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edad" />
+
+    <EditText
+        android:id="@+id/edad"
+        style="@style/colorletras"
+        android:layout_width="152dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:text="Edad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        style="@style/colorletras"
+        android:layout_width="317dp"
+        android:layout_height="69dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:text="contraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword"
+        app:srcCompat="@drawable/key" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/correo"
+        app:layout_constraintEnd_toEndOf="@+id/correo"
+        app:layout_constraintTop_toTopOf="@+id/correo"
+        app:srcCompat="@drawable/mail" />
+
+    <EditText
+        android:id="@+id/usuario"
+        style="@style/colorletras"
+        android:layout_width="150dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:text="Usuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/colorbotones"
+        android:layout_width="317dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Sing Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="53dp"
+        android:text="¿Ya tienes una cuenta?"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textColor="@color/naranja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/group_256" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/estiloiniciosesion"
+        android:layout_width="252dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:paddingStart="0dp"
+        android:text="Empezar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="76dp"
+        android:text="Terminos y condiciones"
+        android:textColor="@color/naranja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="12dp"
+        android:text="Acepto los"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

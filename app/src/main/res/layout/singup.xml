@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="63dp">
+
+    <EditText
+        android:id="@+id/correo"
+        style="@style/colorletras"
+        android:layout_width="317dp"
+        android:layout_height="69dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:text="Myuax@myuax.com"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <EditText
+        android:id="@+id/edad"
+        style="@style/colorletras"
+        android:layout_width="152dp"
+        android:layout_height="66dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:text="Edad"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        style="@style/colorletras"
+        android:layout_width="317dp"
+        android:layout_height="69dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:text="contraseña"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/key"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acepto los términos y condiciones"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/mail"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/usuario"
+        style="@style/colorletras"
+        android:layout_width="150dp"
+        android:layout_height="66dp"
+        android:background="@drawable/fondo_redondeado"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:text="Usuario"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/colorbotones"
+        android:layout_width="317dp"
+        android:layout_height="50dp"
+        android:text="Sing Up"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/login"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="27dp"
+        android:text="¿Ya tienes una cuenta?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textColor="@color/naranja"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="692dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/group_256"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/estiloiniciosesion"
+        android:layout_width="252dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:paddingStart="0dp"
+        android:text="BIENVENIDO"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
